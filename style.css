@@ -1,0 +1,40 @@
+h1{
+color:crimson;
+-webkit-text-stroke: 2px black;
+font-family: "Montserrat Rounded", sans-serif ;
+font-size: 4em;
+text-align: center;
+text-decoration: solid;
+margin-top: 60px;
+}
+
+body{
+background-image: url("Fond.jpg");    
+background-attachment: fixed;
+background-size: cover;
+}
+
+.calendrier{
+display: grid;
+grid-template-columns: repeat(6,1fr);
+gap:10px;
+width: 80%;
+margin: auto;
+}
+
+.case{
+color:white;
+-webkit-text-stroke: 2px black;
+font-size: 4em;
+padding: 50px;
+text-align:center;
+border-radius: 10px;  
+cursor: pointer;
+border:2px solid black;
+}
+
+a{
+color:white;
+-webkit-text-stroke: 2px black;  
+}
+
